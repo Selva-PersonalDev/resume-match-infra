@@ -12,6 +12,6 @@ module "cloud_run" {
   project_id            = var.project_id
   region                = var.region
   service_name          = var.service_name
-  image                 = var.image
   service_account_email = var.service_account_email
 }
+

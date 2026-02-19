@@ -7,7 +7,7 @@ resource "google_cloud_run_service" "service" {
       service_account_name = var.service_account_email
 
       containers {
-        image = var.image
+		image = "gcr.io/cloudrun/hello"
 
         resources {
           limits = {
