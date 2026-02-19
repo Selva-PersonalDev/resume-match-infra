@@ -8,8 +8,8 @@ on:
 env:
   PROJECT_ID: norse-carport-484915-f2
   REGION: us-central1
-  SERVICE_NAME: resume-JD-match-app
-  ARTIFACT_REPO: resume-JD-match-repo
+  SERVICE_NAME: resume-jd-match-app
+  ARTIFACT_REPO: resume-jd-match-repo
   SERVICE_ACCOUNT: ci-cd-bot@norse-carport-484915-f2.iam.gserviceaccount.com
 
 jobs:
